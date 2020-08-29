@@ -1,12 +1,8 @@
 import React from "react";
+import TodoTemplate from "./components/TodoTemplate";
 
 function App() {
-  return (
-    <div className="App">
-      <div>새 브랜치 수정</div>
-      <div>커밋 연습</div>
-    </div>
-  );
+  return <TodoTemplate>Todo App을 만들자!</TodoTemplate>;
 }
 
 export default App;
